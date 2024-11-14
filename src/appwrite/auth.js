@@ -51,6 +51,10 @@ export class AuthService {
             
         }
     }
+
+    async login(){
+        await this.account.deleteIdentity
+    }
 }
 
 const authservice = new AuthService();
