@@ -48,10 +48,9 @@ export class AuthService {
             await this.account.deleteSessions('current');
         } catch (error) {
             console.log('appwrite service :: logout::error',error);
-            
         }
     }
-
+    
     async login(){
         await this.account.deleteIdentity
     }

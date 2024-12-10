@@ -5,6 +5,7 @@ export class Service {
     client;
     Databases;
     bucket;
+    
 
     constructor() {
         // Initialize Appwrite client
